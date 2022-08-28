@@ -1,0 +1,28 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "Abdulnaser Sheikh",
+            "title": "Software Engineer",
+            "image": "/abdul.jpeg",
+            "bio": "Co-founder",
+            "linkedin": "https://www.linkedin.com/in/abdulnasersheikh/"
+          },
+          {
+            "id": 2,
+            "name": "Mohanad Bashir",
+            "title": "Software Engineer",
+            "image": "/mbashir.jpeg",
+            "bio": "Co-founder",
+            "linkedin": "https://www.linkedin.com/in/mohanad-bashir/"
+          },
+          {
+            "id": 3,
+            "name": "Saleban Olow",
+            "title": "Full Stack Engineer",
+            "image": "/olow.PNG",
+            "bio": "Co-founder",
+            "linkedin": "https://www.linkedin.com/in/saleban-olow-8057b888/"
+          }
+    ]
+}
