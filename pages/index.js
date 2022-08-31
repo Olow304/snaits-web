@@ -32,7 +32,7 @@ export default function Home() {
         }
       }
       
-    }`
+    }`,
       )
       .then((res) => {
         if (res.length > 0) {
@@ -164,31 +164,24 @@ export default function Home() {
         <div className="mt-10 bg-snaits-100 h-[1px]"></div>
 
         <div className="mt-10">
-          <UpcomingEvents
-            eventTopic="Computer Science - Java"
-            speaker={[FOUNDERS.data[0]]}
-            title="Speaker"
-          />
-        </div>
-
-        <div className="mt-10 bg-snaits-100 h-[1px]"></div>
-
-        <div className="mt-10">
-          <UpcomingEvents
-            eventTopic="Web Development - NextJS"
-            speaker={[FOUNDERS.data[2]]}
-            title="Speaker"
-          />
-        </div>
-
-        <div className="mt-10 bg-snaits-100 h-[1px]"></div>
-
-        <div className="mt-10">
-          <UpcomingEvents
-            eventTopic="Mobile Development - Flutter | Java | Dart | React Native | Typescript | Kotlin"
-            speaker={[FOUNDERS.data[1]]}
-            title="Speaker"
-          />
+          {FOUNDERS.data &&
+            FOUNDERS.data.map((data, index) => {
+              return (
+                <>
+                  <UpcomingEvents
+                    eventTopic={data.eventTopic}
+                    speaker={[data]}
+                    title="Speaker"
+                  />
+                  {index !== FOUNDERS.data.length - 1 ? (
+                    <>
+                      <div className="mt-10 bg-snaits-100 h-[1px]"></div>
+                      <div className="mt-10"></div>
+                    </>
+                  ) : null}
+                </>
+              );
+            })}
         </div>
 
         <div className="mt-20">
