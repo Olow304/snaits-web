@@ -6,7 +6,8 @@
             "title": "Software Engineer",
             "image": "/abdul.jpeg",
             "bio": "Co-founder",
-            "linkedin": "https://www.linkedin.com/in/abdulnasersheikh/"
+            "linkedin": "https://www.linkedin.com/in/abdulnasersheikh/",
+            "eventTopic": "Computer Science - Java"
           },
           {
             "id": 2,
@@ -14,7 +15,8 @@
             "title": "Mobile Software Engineer",
             "image": "/mbashir.jpeg",
             "bio": "Co-founder",
-            "linkedin": "https://www.linkedin.com/in/moe123/"
+            "linkedin": "https://www.linkedin.com/in/moe123/",
+            "eventTopic": "Mobile Development - Flutter | Java | Dart | React Native | Typescript | Kotlin"
           },
           {
             "id": 3,
@@ -22,7 +24,8 @@
             "title": "Full Stack Engineer",
             "image": "/olow.PNG",
             "bio": "Co-founder",
-            "linkedin": "https://www.linkedin.com/in/saleban-olow-8057b888/"
+            "linkedin": "https://www.linkedin.com/in/saleban-olow-8057b888/", 
+            "eventTopic": "Web Development - NextJS"
           }
     ]
 }
