@@ -176,7 +176,17 @@ export default function Home() {
         <div className="mt-10">
           <UpcomingEvents
             eventTopic="Web Development - NextJS"
-            speaker={[FOUNDERS.data[2], FOUNDERS.data[1]]}
+            speaker={[FOUNDERS.data[2]]}
+            title="Speaker"
+          />
+        </div>
+
+        <div className="mt-10 bg-snaits-100 h-[1px]"></div>
+
+        <div className="mt-10">
+          <UpcomingEvents
+            eventTopic="Mobile Development - Flutter | Java | Dart | React Native | Typescript | Kotlin"
+            speaker={[FOUNDERS.data[1]]}
             title="Speaker"
           />
         </div>
