@@ -7,7 +7,7 @@ function UpcomingEvents({ eventTopic, speaker, title }) {
   return (
     <>
       <span className="text-md text-snaits-700">
-        Topic: <span className="underline">{eventTopic}</span>, where we learn from:
+        Topic: <span className="">{eventTopic}</span>
       </span>
       <Founders founders={speaker} title={title} />
     </>
