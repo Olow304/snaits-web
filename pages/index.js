@@ -165,7 +165,7 @@ export default function Home() {
 
         <div className="mt-10">
           <UpcomingEvents
-            eventTopic="Computer Science - Java"
+            eventTopic="Computer Scientist - Data Struc, Operating Systems, Comp Archi"
             speaker={[FOUNDERS.data[0]]}
             title="Speaker"
           />
@@ -185,7 +185,7 @@ export default function Home() {
 
         <div className="mt-10">
           <UpcomingEvents
-            eventTopic="Mobile Development - Flutter | Java | Dart | React Native | Typescript | Kotlin"
+            eventTopic="Mobile Development - Flutter, Java, Dart, React Native, Typescript, Kotlin"
             speaker={[FOUNDERS.data[1]]}
             title="Speaker"
           />
